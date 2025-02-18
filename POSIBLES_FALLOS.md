@@ -1,6 +1,6 @@
 # Posibles Fallos y Soluciones en el Brazo Robótico
 
-En el desarrollo y uso del **brazo robótico controlado por Bluetooth y botones**, es posible que ocurran algunos errores o fallos técnicos. Aquí recopilamos los problemas más comunes y cómo solucionarlos para garantizar un correcto funcionamiento del sistema.
+En el desarrollo y uso del **brazo robótico controlado por Bluetooth y botones**, es posible que ocurran algunos errores o fallos técnicos. Aquí recopilamos los problemas más comunes y su solución para garantizar un correcto funcionamiento del proyecto.
 
 ## 1️⃣ **Error al Cargar el Código en el Arduino o ESP32**
 ### ❌ **Posible fallo:**
@@ -21,6 +21,7 @@ En el desarrollo y uso del **brazo robótico controlado por Bluetooth y botones*
 - **Revisar las conexiones**: Asegurarse de que los servos están correctamente conectados a sus respectivos pines del Arduino.
 - **Verificar la alimentación**: Los servos necesitan suficiente corriente. Si el brazo tiene muchos servos, usa una fuente de alimentación externa en lugar de alimentar los servos directamente desde el Arduino.
 - **Comprobar la configuración de los servos en el código**: Cada servo tiene un rango de movimiento de **0° a 180°**. Si el código intenta moverlos fuera de este rango, podrían quedar bloqueados.
+- **Verificar la posición de los servos**: Asegurarse de que los servos no se choque con la carcasa.
 
 ---
 
@@ -42,7 +43,6 @@ En el desarrollo y uso del **brazo robótico controlado por Bluetooth y botones*
 ### ✅ **Solución:**
 - **Revisar las conexiones**: Asegúrate de que los cables están conectados en los pines correctos.
 - **Verificar la polaridad de los LED**: Los LED RGB tienen **una pata más larga (ánodo común) o pueden ser de cátodo común**. Comprueba el tipo de LED y conecta correctamente el pin de alimentación y tierra.
-- **Asegurar el código correcto**: Si los LED muestran colores incorrectos, revisa en el código que los valores de color (rojo, verde y azul) estén correctamente definidos.
 
 ---
 
