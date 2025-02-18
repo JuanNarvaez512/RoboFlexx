@@ -2,7 +2,7 @@
 
 En el desarrollo y uso del **brazo robótico controlado por Bluetooth y botones**, es posible que ocurran algunos errores o fallos técnicos. Aquí recopilamos los problemas más comunes y su solución para garantizar un correcto funcionamiento del proyecto.
 
-## 1️⃣ **Error al Cargar el Código en el Arduino o ESP32**
+## **Error al Cargar el Código en el Arduino o ESP32**
 ### ❌ **Posible fallo:**
 - Si al intentar cargar el código en el **ESP32 o Arduino** aparece un error de comunicación.
 
@@ -12,7 +12,7 @@ En el desarrollo y uso del **brazo robótico controlado por Bluetooth y botones*
 
 ---
 
-## 2️⃣ **Los Servos No Responden o No Se Mueven Correctamente**
+## **Los Servos No Responden o No Se Mueven Correctamente**
 ### ❌ **Posible fallo:**
 - Algunos servos no giran o lo hacen de manera errática.
 - Se escuchan ruidos extraños, pero no hay movimiento.
@@ -25,7 +25,7 @@ En el desarrollo y uso del **brazo robótico controlado por Bluetooth y botones*
 
 ---
 
-## 3️⃣ **Montaje Incorrecto de la Mano Robótica**
+## **Montaje Incorrecto de la Mano Robótica**
 ### ❌ **Posible fallo:**
 - La mano no se mueve correctamente o los dedos no cierran bien.
 
@@ -36,7 +36,7 @@ En el desarrollo y uso del **brazo robótico controlado por Bluetooth y botones*
 
 ---
 
-## 4️⃣ **Los LED de la Caja RGB No Funcionan**
+## **Los LED de la Caja RGB No Funcionan**
 ### ❌ **Posible fallo:**
 - Los LED RGB no encienden o muestran colores incorrectos.
 
@@ -46,7 +46,7 @@ En el desarrollo y uso del **brazo robótico controlado por Bluetooth y botones*
 
 ---
 
-## 5️⃣ **El Buzzer No Suena o Suena Distorsionado**
+## **El Buzzer No Suena o Suena Distorsionado**
 ### ❌ **Posible fallo:**
 - No se escucha ningún sonido o el sonido es extraño.
 
