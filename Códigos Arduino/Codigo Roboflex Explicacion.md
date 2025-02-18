@@ -2,7 +2,7 @@
 
 Este código permite controlar los **5 servomotores** del brazo robótico utilizando **botones físicos**. Cada botón está asignado a un servo y, cuando se presiona, el servo se mueve a una posición predefinida. Cuando el botón se suelta, el servo vuelve a su posición original.
 
-## 1️⃣ **Definición de Pines y Variables**
+## **Definición de Pines y Variables**
 
 ```cpp
 #include <Servo.h>
@@ -67,7 +67,7 @@ int botonEstadoAnterior5 = HIGH;
 ```
 Cada variable almacena el estado anterior del botón correspondiente.
 
-## 2️⃣ **Configuración Inicial (`setup()`)**
+## **Configuración Inicial (`setup()`)**
 
 ```cpp
 void setup() {
@@ -108,7 +108,7 @@ Serial.println("Sistema listo. Presiona los botones para cambiar la posición de
 ```
 Se inicializa la comunicación **Serial** para depuración.
 
-## 3️⃣ **Bucle Principal (`loop()`)**
+## **Bucle Principal (`loop()`)**
 
 Cada botón se lee y, si se ha presionado, se cambia el estado del servo.
 
@@ -128,7 +128,7 @@ botonEstadoAnterior1 = boton1;
 
 Este proceso se repite para **cada uno de los servos**.
 
-## 4️⃣ **Modificaciones y Mejoras**
+## **Modificaciones y Mejoras**
 Si deseas **modificar el código**, aquí hay algunas opciones:
 
 ### **🔹 Ajustar el rango de los servos**
