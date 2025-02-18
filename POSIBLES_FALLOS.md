@@ -57,5 +57,5 @@ En el desarrollo y uso del **brazo robótico controlado por Bluetooth y botones*
 
 ---
 
-### 🔥 **Consejo Final**
+### **Consejo Final**
 Antes de realizar pruebas, **revisa todas las conexiones**, **verifica el montaje mecánico** y **asegúrate de que la alimentación sea suficiente**. Con estas precauciones, reducirás la posibilidad de errores y mejorarás el rendimiento del brazo robótico.
