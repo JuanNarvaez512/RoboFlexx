@@ -152,5 +152,5 @@ Agregar **debounce** para evitar lecturas erróneas:
 delay(50);  // Pequeño retraso para evitar rebotes
 ```
 
-## 5️⃣ **Conclusión**
+## **Conclusión**
 Este código es una forma sencilla y efectiva de controlar **un brazo robótico con botones físicos**. Permite modificaciones fáciles para ajustar la sensibilidad de los servos, cambiar los pines o mejorar el código con más funcionalidades. 🚀🤖
